@@ -8,6 +8,11 @@ git push -u origin master
 
 …or push an existing repository from the command line:
 
+git add .
+git commit -m "new commit"
+git push -u origin master
+
+
 git remote add origin https://github.com/zoleikha-mousavipak/zDocs.git
 git push -u origin master
 
