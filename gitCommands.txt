@@ -1,9 +1,7 @@
 …or create a new repository on the command line:
 
-echo "# zDocs" >> README.md
 git init
 git add .
-git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/zoleikha-mousavipak/zDocs.git
 git push -u origin master
@@ -20,4 +18,6 @@ git pull origin master
 git status
 git push -u origin --all
 git push -u origin --force
+echo "# zDocs" >> README.md
+git add README.md
 
