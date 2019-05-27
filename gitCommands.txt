@@ -5,15 +5,12 @@
 git init
 git remote add origin https://github.com/zoleikha-mousavipak/zDocs.git
 git push -u origin master
-
 *****************************************************
 ... push an existing repository from the command line:
 
 git add .
 git commit -m "new commit"
 git push -u origin master
-
-
 ******************
 ...other commands:
 
@@ -23,4 +20,11 @@ git push -u origin --all
 git push -u origin --force
 echo "# zDocs" >> README.md
 git add README.md
+
+*********************
+...in cPanel:
+git clone https://github.com/zoleikha-mousavipak/zDocs.git
+
+
+
 
