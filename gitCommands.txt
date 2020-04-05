@@ -4,6 +4,7 @@
 
 git init
 git remote add origin https://github.com/zoleikha-mousavipak/zDocs.git
+git push --set-upstream origin master
 git push -u origin master
 *****************************************************
 ... push an existing repository from the command line:
